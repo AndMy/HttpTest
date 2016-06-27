@@ -1,0 +1,5 @@
+<resources>
+
+    <integer name="anim_translation_y">120</integer>
+
+</resources>

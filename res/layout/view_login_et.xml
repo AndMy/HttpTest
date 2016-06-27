@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp" >
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/mine_login_et_bg_selector"
+        android:gravity="center_vertical|left"
+        android:hint="请输入账号"
+        android:paddingLeft="16dp"
+        android:singleLine="true"
+        android:textColor="#808080"
+        android:textColorHint="#dbdbdb"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_forget"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingRight="16dp"
+        android:text="忘记密码"
+        android:textColor="@drawable/login_forget_password"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/iv_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/et"
+        android:layout_alignTop="@id/et"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/tv_forget"
+        android:padding="4dp"
+        android:src="@drawable/mine_delete_selector"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:background="@drawable/bg_progress_dialog"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/pgb_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:indeterminateDrawable="@drawable/progress_white" />
+
+    <TextView
+        android:id="@+id/tv_messag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pgb_progress"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="显示信息"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
